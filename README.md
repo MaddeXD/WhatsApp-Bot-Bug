@@ -1,69 +1,63 @@
-  <body>
-<h1 align="center">🔥 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 🔥</h1>
-<br>
-<div align="center">
-<img src="https://i.imgur.com/jx17oHT.gif">
-</div>
-<br>
-</p>
-<div>
-<img src="https://64.media.tumblr.com/e1f1c97123ae217eb731500e502e0083/tumblr_n9dxcikmIU1qc9zfzo7_r1_250.gif" align="right">
-<div>
-</p>
-</p>
-<h4><font size="2"><a href="https://youtube.com/channel/UCa37vxxUI-XULKwb4A5g"><font color="red">SUBSCRIBE</font>
-</h4>
-<h4><font size="2"><a href="https://www.instagram.com/abdmjdd/?hl=id"><font color="red">FOLLOW INSTAGRAM</font>
-</h4>
-<h4><font size="2"><a href="https://t.me/MaddeXD"><font color="red">TELEGRAM</font>          
-</p>
-</p>
-<a href="https://trakteer.id/MaddeXD" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png" height="15" style="border:0px;height:25px;" alt="DONASI FOR ME :V"></a>
-</p>
-<p align="center"> </p> <img src="https://img.shields.io/badge/adobe%20photoshop%20-%2331A8FF.svg?&style=for-the-badge&logo=adobe%20photoshop&logoColor=white"/> </p> <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> </p> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> </p>
- </p> <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> </p> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> </p> <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/> <br><br>
-</p>
+ 
+<p align="center"> 
+<img src="https://komarev.com/ghpvc/?username=MaddeXD&color=brightgreen" />
+<p/>
 <p align="center">
-</p>
-- My Name Madd
-</p>
-- Hello All 👋
-<br>
-</p>
-<h2 align="center">🔥 SPOTIFY 🔥</h2>
+<a href="https://github.com/MaddeXD"><img title="Author" src="https://img.shields.io/badge/WhatsApp Bot Bug-black?style=for-the-badge&logo=github"></a>
+<p/>
 <p align="center">
-  <a href="https://open.spotify.com/track/4bNvS25ZVMCvLHEUV87mp4?si=yb1PaPVnRgiTYedy8r6i_g&utm_source=copy-link&context=spotify%3Aplaylist%3A37i9dQZF1EIVoBTSiHHsdx&dl_branch=1" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
+<a href="https://github.com/MaddeXD?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/MaddeXD?label=Followers&style=social"></a>
+<a href="https://github.com/MaddeXD/WhatsApp-Bot-Bug/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/MaddeXD/WhatsApp-Bot-Bug?&style=social"></a>
+<a href="https://github.com/MaddeXD/WhatsApp-Bot-Bug/network/members"><img title="Fork" src="https://img.shields.io/github/forks/MaddeXD/WhatsApp-Bot-Bug?style=social"></a>
+<a href="https://github.com/MaddeXD/WhatsApp-Bot-Bug/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MaddeXD/WhatsApp-Bot-Bug?label=Watching&style=social"></a>
 </p>
-<p align="center"><a href="https://github.com/MaddeXD"><img src="https://github-readme-stats.vercel.app/api?username=MaddeXD&show_icons=true&theme=radical"></a></p>
-</div>
 
-# Instalasi
-## Heroku Buildpack
-```bash
-heroku/nodejs
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+
+
+<h3 align="center">WHATSAPP BOT BUG</h3>
+
+***
+### Informasi
+- Setting/Ubah Nomor Telepon di hwkal.js [Config](https://github.com/MaddeXD/WhatsApp-Bot-Bug/blob/main/hwkal.js#L6)
+- Anda dapat mengubah versi terakhir dari bailey untuk mengedit package.json [disini](https://github.com/MaddeXD/WhatsApp-Bot-Bug/blob/main/package.json#L42)
+
+
+#### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MaddeXD/WhatsApp-Bot-Bug)
+
+#### Heroku Buildpack
+| BuildPack | LINK |
+|--------|--------|
+| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+
+### TERMUX
+```sh
+$ pkg upgrade -y && pkg update -y
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ git clone https://github.com/MaddeXD/WhatsApp-Bot-Bug
+$ cd WhatsApp-Bot-Bug
+$ pkg install yarn
+$ yarn
+$ npm i 
+$ npm start
 ```
-## For Termux
-```ts
-termux-setup-storage
-apt update && apt upgrade
-pkg install nodejs git ffmpeg libwebp imagemagick
-git clone https://github.com/MaddeXD/WhatsApp-Bot-Bug
-cd WhatsApp-Bot-Bug
-pkg install yarn
-yarn
-npm install
-npm start
-```
+---------
 
-> ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddeXD&layout=compact&show_icons=true&bg_color=0,EFFDF9,CBFFF3,64FFDA&theme=graywhite&hide_title=true" alt="Top Languages"/>
 
-# INSTALL
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
+#### Donate
+<p align="left"><a href="https://trakteer.id/MaddeXD" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png" height="55" style="border:0px;height:35px;" alt="DONASI FOR ME :V"></a>
+</p>
 
-</div>
-</body>
+## 📡 Get in Touch :
+
+<p align="center">
+  <a href="https://www.github.com/MaddeXD"><img width="24" height="24" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"/> </a>
+  <a href="https://www.facebook.com/MaddeXD"><img width="24" height="24" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"/> </a>
+  <a href="https://www.instagram.com/abdmjdd"><img width="24" height="24" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"/> </a>
+  <a href="https://api.whatsapp.com/send/?phone=6287872656248&text=Hallo+Bang!"><img width="24" height="24" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"/> </a>
+</p>
