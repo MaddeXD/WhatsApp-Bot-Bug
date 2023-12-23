@@ -677,36 +677,12 @@ user.afkReason = ''
 }
 //=================================================//
 switch(command) {
-case "menu":
-       case "help":
+
+
+case "maddexd":
+       case "Mekdorneonu":
         if (cekUser("id", sender) == null) return haikal.sendMessage(from, { text: `Maaf *@${sender.split('@')[0]}*, sepertinya  kamu blom terdaftar di database Silahkan daftar  terlebih dahulu dengan mengetik .daftar`, mentions: [sender]}, { quoted:m})
-       await loading()
-       var mnn = fs.readFileSync('./baseikal/video/menupt2.mp4')
-       haikal.sendMessage(from, { video: mnn, caption: `
-
-*ʜᴀʟʟᴏ ᴋᴀᴋ ${pushname}👋.* 
-sᴇʟᴀᴍᴀᴛ ${salam}😄
-ɴᴀᴍᴀ ꜱᴀyᴀ ᴀᴅᴀʟᴀʜ *ʀʏᴏ ʏᴀᴍᴀᴅᴀ*
-
-ʙᴏᴛ ɪɴɪ ᴅᴀᴘᴀᴛ ᴅɪɢᴜɴᴀᴋᴀɴ sᴇʙᴀɢᴀɪ *ᴇᴅᴜᴋᴀsɪ ᴘᴇʟᴀᴊᴀʀᴀɴ*, *ᴜɴᴅᴜʜᴀɴ ᴍᴇᴅɪᴀ*, *ɢᴀᴍᴇ*, *ᴘᴇɴᴊᴀɢᴀ ɢʀᴜᴘ*, *ᴅᴀɴ ʟᴀɪɴɴʏᴀ* ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴜᴀᴛ ᴋᴀᴍᴜ ʟᴇʙɪʜ ᴍᴜᴅᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴊᴀʟᴀɴɪ ʜᴀʀɪ-ʜᴀʀɪ:>
-
- *✎ ᴏᴡɴᴇʀ : ᴏᴋᴛᴀ*
- 
-ᴊɪᴋᴀ ᴀᴅᴀ ᴍᴀsᴀʟᴀʜ ᴅᴀʟᴀᴍ ᴘᴇɴɢɢᴜɴᴀᴀɴ sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ ᴄʀᴇᴀᴛᴏʀ ᴜɴᴛᴜᴋ ᴍᴇɴᴀɴʏᴀᴋᴀɴ *.ᴏᴡɴᴇʀ*
-
-┌ ◦ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ғɪᴛᴜʀ ʙᴏᴛ: *.ᴛᴀᴀʟʟ*
-└ ◦ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ sɪᴍᴘᴇʟ ᴍᴇɴᴜ: *sɪᴍᴘᴇʟ*
-
-copyright *©TaaOfc* and all rights reserved`, gifPlayback: true }, { quoted: m })
-        await haikal.sendMessage(m.chat, {audio: fs.readFileSync('./baseikal/menu.mp3'),mimetype: 'audio/mpeg',ptt: true}, {quoted:m})
-break
-
-
-case "simple":
-       case "simpel":
-        if (cekUser("id", sender) == null) return haikal.sendMessage(from, { text: `Maaf *@${sender.split('@')[0]}*, sepertinya  kamu blom terdaftar di database Silahkan daftar  terlebih dahulu dengan mengetik .daftar`, mentions: [sender]}, { quoted:m})
-       await loading()
-       var mnn = fs.readFileSync('./baseikal/video/menu.mp4')
+       //await loading()
        haikal.sendMessage(from, { video: mnn, caption: `
 Hay Kak ${pushname} 👋
 Selamat ${salam}
@@ -719,14 +695,12 @@ Selamat ${salam}
 
 ❉ 𝗜𝗻𝗳𝗼 𝗕𝗼𝘁
 ━━━━.✾.━━━━━━━━━━━━━━━━━━━━
-𝙽𝚊𝚖𝚊 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
 𝙼𝚘𝚍𝚎 : 𝗣𝘂𝗯𝗹𝗶𝗰
 𝙿𝚛𝚎𝚏𝚒𝚡 : .
 𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
 ━━━━.✾.━━━━━━━━━/━━/━━━━━━━
 
  
-── . . 𝙍𝙮𝙤 𝙔𝙖𝙢𝙖𝙙𝙖. . .
   *𝚂𝙸𝙼𝙿𝙻𝙴 𝙼𝙴𝙽𝚄*
 
 ➛ ɢᴀꜱᴍᴇɴᴜ
@@ -747,12 +721,12 @@ Selamat ${salam}
 ➛ ᴀꜱᴜᴘᴀɴ
 ➛ ᴘᴜʙʟɪᴄ
 ➛ ꜱᴇʟꜰ
-└─── °∘𝘽𝙮 𝙏𝙖𝙖𝙊𝙛𝙘∘° ───┘`, gifPlayback: true }, { quoted: m })
+└─── °∘ ⚡⚡ ∘° ───┘`, gifPlayback: true }, { quoted: m })
        break
 
-case "all":
-       case "allmenu":
-       case "taall":
+case "ir93jeall":
+       case "alkkkkkklmenu":
+       case "tkeoekeoaall":
                if (cekUser("id", sender) == null) return haikal.sendMessage(from, { text: `Maaf *@${sender.split('@')[0]}*, sepertinya  kamu blom terdaftar di database Silahkan daftar  terlebih dahulu dengan mengetik .daftar`, mentions: [sender]}, { quoted:m})
        await loading()
        var mnn = fs.readFileSync('./baseikal/video/menupt2.mp4')
@@ -768,7 +742,6 @@ Selamat ${salam}
 
 ❉ 𝗜𝗻𝗳𝗼 𝗕𝗼𝘁
 ━━━━.✾.━━━━━━━━━━━━━━━━━━━━
-𝙽𝚊𝚖𝚊 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
 𝙼𝚘𝚍𝚎 : 𝗣𝘂𝗯𝗹𝗶𝗰
 𝙿𝚛𝚎𝚏𝚒𝚡 : .
 𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
@@ -1297,7 +1270,6 @@ Selamat ${salam}
 
 ❉ 𝗜𝗻𝗳𝗼 𝗕𝗼𝘁 
 ━━━━.✾.━━━━━━━━━━━━━━━━━━━━ 
-𝙽𝚊𝚖𝚊 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
 𝙼𝚘𝚍𝚎 : 𝗣𝘂𝗯𝗹𝗶𝗰 
 𝙿𝚛𝚎𝚏𝚒𝚡 : .
 𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
@@ -1317,81 +1289,6 @@ Selamat ${salam}
 . unblock`
 haikal.sendMessage(from, { text: text12, contextInfo: { mentionedJid: [sender, owned], forwardingScore: 9999, isForwarded: true }}, { quoted: fkontak })
 }
-break
-case "tqto": 
- const owned = `${owner}@s.whatsapp.net`
-const version = 2
-const text12 = `*Hi ${pushname}👋*
-
-▭▬▭▬▭▬▭▬▭▬▭▬▭▬
-「 *BOT INFO* 」
-⭔Nama Creator : *Okta*
-⭔Nomor Creator : *@${owned.split("@")[0]}*
-⭔Nama Script : *Ryo*
-⭔Versi Script : *2.0*
-⭔Botz Name : *Ryo Yamada*
-⭔Type Baileys : *Case*
-▭▬▭▬▭▬▭▬▭▬▭▬▭▬
-
-*Thanks To*
-
-⭔ Hw Mods
-⭔ TaaOfc (Gw Sendiri)
-⭔ Temen Temen Gw
-⭔ Subscriber Gw
-
-Powered By *@${owned.split("@")[0]}*
-▬▭▬▭▬▭▬▭▬▭▬▭▬`
-
-haikal.sendMessage(m.chat, {
-text: text12,
-contextInfo: { mentionedJid: [sender, owned],
-externalAdReply: {
-showAdAttribution: true,
-title: ownername,
-body: 'bodynya',
-thumbnailUrl: 'https://telegra.ph/file/f0ed9af614253ed7505c8.jpg',
-sourceUrl: "https://chat.whatsapp.com/IRRkLJqImnuB6lCjGzyME0",
-mediaType: 1,
-renderLargerThumbnail: true
-}}}, {quoted:m})
-await haikal.sendMessage(m.chat, {audio: fs.readFileSync('./audio.mp3'),mimetype: 'audio/mpeg',ptt: true}, {quoted:m})
-
-break
-
-case "donasi": 
-      case "donate": 
-                if (cekUser("id", sender) == null) return haikal.sendMessage(from, { text: `Maaf *@${sender.split('@')[0]}*, sepertinya  kamu blom terdaftar di database Silahkan daftar  terlebih dahulu dengan mengetik .daftar`, mentions: [sender]}, { quoted:m})
- haikal.relayMessage(m.chat, {
-                "requestPaymentMessage": {
-                    amount: {
-                        value: 2022000,
-                        offset: 0,
-                        currencyCode: 'IDR'
-                    },
-                    amount1000: 1000000000000000,
-                    background: null,
-                    currencyCodeIso4217: 'USD',
-                    expiryTimestamp: 0,
-                    noteMessage: {
-                        extendedTextMessage: {
-                            text: 
-                            
-                            `
-  ╭───── 𝙍𝙮𝙤 ─────
-  
-        𝗗𝗮𝗻𝗮   : ${dana}
-        𝗚𝗼𝗽𝗮𝘆  : ${gopay}
-        𝗣𝘂𝗹𝘀𝗮   : ${pulsa}
-        
-  _Terima Kasih Atas Donasinya :>_  
-        
-  └──── 𝙱𝚢 𝚃𝚊𝚊𝙾𝚏𝚌 ──┘`
-                        }
-                    },
-                    requestFrom: m.sender
-                }
-            }, {})
 break
 
 case 'bugmenu': 
@@ -1535,9 +1432,9 @@ Selamat ${salam}
 
    ❉ 𝗜𝗻𝗳𝗼 𝗕𝗼𝘁 
 ━━━━.✾.━━━━━━━━━━━━━━━━━━━━ 
-𝙽𝚊𝚖𝚊 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
 𝙼𝚘𝚍𝚎 : 𝗣𝘂𝗯𝗹𝗶𝗰
-𝙿𝚛𝚎𝚏𝚒𝚡 : . 𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
+𝙿𝚛𝚎𝚏𝚒𝚡 : . 
+𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
 ━━━━.✾.━━━━━━━━━/━━/━━━━━━━͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
 𝗚𝗿𝗼𝘂𝗽 𝗠𝗲𝗻𝘂  
 
@@ -3913,10 +3810,11 @@ await haikal.groupParticipantsUpdate(from, [botNumber], 'demote')
 }
 break
 //=================================================//
-case 'hidetag': {
+case 'hidetag': 
+case 'h': {
 if (!isCreator) return m.reply('*khusus Premium*')
 if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
-await loading()
+//await loading()
 haikal.sendMessage(from, { text : q ? q : '' , mentions: participants.map(a => a.id)}, {quoted:m})
 }
 break
@@ -3955,7 +3853,7 @@ case 'editinfo': {
 if (!isCreator) return m.reply('*khusus Premium*')
 if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 if (!isAdmins) return m.reply('Lah Dikira Admin Group Kali')
-await loading()
+//await loading()
  if (args[0] === 'open'){
 await haikal.groupSettingUpdate(from, 'unlocked').then((res) => m.reply(`Sukses Membuka Edit Info Group`)).catch((err) => m.reply(jsonformat(err)))
  } else if (args[0] === 'close'){
@@ -3973,7 +3871,7 @@ case 'join': {
 if (!isCreator) return m.reply('*khusus Premium*')
 if (!text) throw 'Masukkan Link Group!'
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
-await loading()
+//await loading()
 let result = args[0].split('https://chat.whatsapp.com/')[1]
 await haikal.groupAcceptInvite(result).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 }
@@ -3985,7 +3883,7 @@ if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 if (!isBotAdmins) return m.reply('Bot Bukan Admin Cuy')
 if (!isAdmins) return m.reply('Lah Dikira Admin Group Kali')
 if (!text) throw 'Text nya ?'
-await loading()
+//await loading()
 await haikal.groupUpdateSubject(from, text).then((res)).catch((err) => m.reply(jsonformat(err)))
 }
 break
@@ -3996,14 +3894,14 @@ if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 if (!isBotAdmins) return m.reply('Bot Bukan Admin Cuy')
 if (!isAdmins) return m.reply('Lah Dikira Admin Group Kali')
 if (!text) throw 'Text Nya ?'
-await loading()
+//await loading()
 await haikal.groupUpdateDescription(from, text).then((res)).catch((err) => m.reply(jsonformat(err)))
 }
 break
 //=================================================//
 case 'tagall': {
 if (!m.isGroup) return
-await loading()
+//await loading()
 let teks = `══✪〘 *👥 Tag All* 〙✪══
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
 for (let mem of participants) {
@@ -4018,7 +3916,7 @@ if (!isCreator) return m.reply('*Khusus Premium*')
 if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 if (!isBotAdmins) return m.reply('Bot Bukan Admin Cuy')
 if (!isAdmins) return m.reply('Lah Dikira Admin Group Kali')
-await loading()
+//await loading()
 var groupe = await haikal.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
@@ -4033,7 +3931,7 @@ if (!isCreator) return m.reply('*Khusus Premium*')
 if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 if (!isBotAdmins) return m.reply('Bot Bukan Admin Cuy')
 if (!isAdmins) return m.reply('Lah Dikira Admin Group Kali')
-await loading()
+//await loading()
 var groupe = await haikal.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
@@ -4043,8 +3941,8 @@ mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 haikal.groupParticipantsUpdate(from, mems, 'promote')
 break
 //=================================================//
-case 'tutorial': {
-await loading()
+case 'tut9393orial': {
+//await loading()
  m.reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 Tutorial Panel
 https://wa.me/6285731947500`)
@@ -4065,15 +3963,15 @@ Untuk Melanjutkan Sewa Silahkan Ketik Contoh Di bawah
 *Contoh => sewabot 1 minggu`)
 break
 //=================================================//
-case 'sewabot':
+case 'buatgc':
 if (isBan) return m.reply('*Lu Di Ban Owner*')
-if (!text) return m.reply(`*Contoh* :\n#sewabot 1 minggu `)
-await loading()
+if (!text) return m.reply(`*Contoh* :\n#buatgc gibah 24 jam `)
+//await loading()
 let cret = await haikal.groupCreate(args.join(" "), [])
 let response = await haikal.groupInviteCode(cret.id)
-haikal.sendMessage(m.chat, { text: `「 *Create Group Sewa* 」
+haikal.sendMessage(m.chat, { text: `
 
-Sewa Bot Selama *${text}* Sedang Dalam Prosess Silahkan Masuk Melalui Link Group Yang Sudah Di Sediakan..
+Grup *${text}* Sedang Dalam Prosess Silahkan Masuk Melalui Link Group Yang Sudah Di Sediakan..
 
 _▸ Owner : ${botname}
 _▸ Time : ${moment(cret.creation * 1000).tz("Asia/Jakarta").format("DD/MM/YYYY HH:mm:ss")} WIB_https://chat.whatsapp.com/${response}
@@ -4084,7 +3982,7 @@ break
 case 'sticker': case 's': case 'stickergif': case 'sgif': {
  if (!quoted) throw `Balas Video/Image Dengan Caption ${prefix + command}`
 if (/image/.test(mime)) {
-await loading()
+//await loading()
 let media = await quoted.download()
 let encmedia = await haikal.sendImageAsSticker(from, media, m, { packname: global.packname, author: global.author })
 await fs.unlinkSync(encmedia)
@@ -6236,19 +6134,19 @@ m.reply(teks)
 }
 break
 //=================================================//
-case 'pembayaran': case 'nope': case 'listpayment':{
-await loading()
+case 'payment': case 'nope': case 'listpayment':{
+//await loading()
 m.reply(`
 ◎ © Hay Kak ${pushname} 👋
 Selamat ${salam}
 Silahkan Melakukan Transfer Dengan No Bawah Yah : 
-   ╭───── 𝙍𝙮𝙤 ─────
+   ╭───── Payment ─────
   
         𝗗𝗮𝗻𝗮   : ${dana}
         𝗚𝗼𝗽𝗮𝘆  : ${gopay}
         𝗣𝘂𝗹𝘀𝗮   : ${pulsa}
         
-   └──── 𝙱𝚢 𝚃𝚊𝚊𝙾𝚏𝚌 ──┘
+   └────  Payment ──┘
    
  Jika sudah Hubungi Owner Dengan Mengetik .owner
 `)
@@ -6396,82 +6294,7 @@ case 'igstalk': {
 			}
 			break
 //=================================================//
-case 'listpanel': case 'panel':
-if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
- var resio = await Quotes()
-teks = `\nAuthor: ${resio.author}\n`
-teks = `\nQuotes:\n`
-teks = `${resio.quotes}\n`
-let foottgkzooi = `Runtime : ⏳ ${runtime(process.uptime())}
-Jam : ${time}`
-sendGeekzMessage(from, { 
-text: `Hay Kak ${pushname} 👋
-Selamat ${salam}
 
-❉ 𝗜𝗻𝗳𝗼 𝗨𝘀𝗲𝗿
-━━━━.✾.━━━━━━━━━━━━━━━━━━━━
-𝙽𝚊𝚖𝚊 : ${pushname}
-𝚂𝚝𝚊𝚝𝚞𝚜 𝙰𝚗𝚍𝚊: ${isCreator ? 'Premium' : 'Free'}
-━━━━━━━━━━━━━━━/━━/━━━━━
-
-❉ 𝗜𝗻𝗳𝗼 𝗕𝗼𝘁
-━━━━.✾.━━━━━━━━━━━━━━━━━━━━
-𝙽𝚊𝚖𝚊 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
-𝙼𝚘𝚍𝚎 : 𝗣𝘂𝗯𝗹𝗶𝗰
-𝙿𝚛𝚎𝚏𝚒𝚡 : .
-𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
-━━━━.✾.━━━━━━━━━/━━/━━━━━━━
-
-*Kata - Kata Untuk Hari Ini*
-
-${teks}
-•-------------------------------------------------•
-*Pricelist Harga TaaOfc Panel* :
-
-1GB RAM/1GB Disk/25% CPU
-Rp1.000/1 BULAN
-
-2GB RAM/2GB Disk/50% CPU
-Rp2.000/1 BULAN
-
-3GB RAM/3GB Disk/75% CPU
-Rp3.000/1 BULAN
-
-4GB RAM/4GB Disk/100% CPU
-Rp4.000/1 BULAN
-
-5GB RAM/5GB Disk/125% CPU
-Rp5.000/1 BULAN
-
-6GB RAM/6GB Disk/150% CPU
-Rp6.000/1 BULAN
-
-*Unlimited*
-Rp10.000/1 BULAN
-
-
-Nb:
-Kalau Andah sudah Transfer artinya anda setuju dengan segala kebijakan kami.
-Untuk pricelist renew berlaku jika ada server yg masih aktif di dalam akun minimal selama 23hari.
-
-*[ Administrator]*
-Ketik .owner Untuk Menghubungi owner`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": foottgkzooi, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": kalimage,
-"mediaUrl": okta,
-"sourceUrl": okta
-}
-}
-})
-break
 //=================================================//
 case 'infogempa':
 var { data } = await axios.get(`https://api.lolhuman.xyz/api/infogempa?apikey=${apikey}`)
@@ -6581,7 +6404,7 @@ break
 //=================================================
 case "buatswimage":{
 if (!isCreator) return m.reply('*Khusus Premium*')
-await loading ()
+//await loading ()
  if (!quoted) throw `Balas image Dengan Caption ${prefix + command}`
 if (!/image/.test(mime)) throw `Balas image dengan caption *${prefix + command}*`
 const media = await haikal.downloadAndSaveMediaMessage(quoted)

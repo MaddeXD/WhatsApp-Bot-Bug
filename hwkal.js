@@ -16,16 +16,16 @@ global.dana = '085749543572'
 global.gopay = '085749543572'
 global.pulsa = '085749543572'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = '𝗢𝚔𝚝𝚊' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'Madd' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
-global.owner = ['6285731947500'] // ubah aja pake nomor lu
+global.owner = ['6285811169272'] // ubah aja pake nomor lu
 //==========================BY Hw Mods=======================//
 global.zenz = 'zenzkey_41b4fe7a5d' // https://api.zahwazein.xyz
 global.keyopenai = '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'
 //====================BY Hw Mods=============================//
-global.botname = '𝘙𝘺𝘰 𝘠𝘢𝘮𝘢𝘥𝘢' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.packname = '𝘙𝘺𝘰' // ubah aja ini nama sticker
-global.author = '𝘽𝙮 𝙊𝙠𝙩𝙖' // ubah aja ini nama sticker
+global.botname = 'Madd Bot' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.packname = 'Madd Bot' // ubah aja ini nama sticker
+global.author = ' 6285811169272' // ubah aja ini nama sticker
 global.prefa = ['','!','.',',','🐤','🗿']
 global.sessionName = 'haikal' //Gausah Juga
 global.sp = '⭔' // Gausah Juga
